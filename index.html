@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barriecito&family=Caveat&family=DynaPuff&family=Indie+Flower&family=Pangolin&family=Rubik+Puddles&family=Ysabeau:ital,wght@1,200&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <img id="bike" src="bike.png" alt="" />
+      </div>
+      <div>
+        <img id="car1" src="car.png" alt="" />
+      </div>
+      <div>
+        <img id="car2" src="car2.png" alt="" />
+      </div>
+    </div>
+
+    <div class="result-container">
+      <h1>GAME OVER</h1>
+      <span>SCORE<span class="score">0</span></span>
+      <button onclick="location.reload()">restart</button>
+      <h5>credit:-TANMAY</h5>
+    </div>
+
+    <audio id="audio1" src="jump.mp3"></audio>
+    <audio src="crash.wav" id="audio2"></audio>
+
+    <script src="app.js"></script>
+  </body>
+</html>
